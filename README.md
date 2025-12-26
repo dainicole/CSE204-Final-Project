@@ -1,2 +1,2 @@
-# CSE204-Final-Project
-CRET Website
+# React App
+This responsive website was built using React for CReT, a nonprofit organization. It showcases handmade crocheted keychains to support future fundraisers. Users can explore the organization's mission, learn about past initiatives, and browse available products. The product page features filtering options by price, size, and sale status, along with detailed views for each item. The site also includes dynamic UI elements that enhance user interaction and visual appeal. This project was developed as a final assignment for a Web Development course at Washington University in St. Louis.

@@ -1,0 +1,41 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #bd5838;
+  font-family: 'Text', sans-serif;
+}
+
+
+header {
+  margin-top: 0;
+} 
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3f1300;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #edac6d;
+}
+
+.nav-link.active {
+  color: #edac6d;
+}

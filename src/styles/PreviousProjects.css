@@ -1,0 +1,142 @@
+.previous-projects {
+  padding: 2rem;
+  background-color: #ecab6c;
+  min-height: 100vh;
+}
+
+.previous-projects-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ecab6c;
+}
+
+.previous-projects-section {
+  margin-bottom: 2.5rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.previous-projects-section h2 {
+  font-size: 2.5rem;
+  color: #3f1300;
+  margin-bottom: 1rem;
+  font-family: 'Custom', "Lucida Console", "Courier New", monospace;
+}
+
+.previous-projects-section h4 {
+  font-size: 1.8rem;
+  color: #be5939;
+  margin-bottom: 0.8rem;
+  font-family: 'Custom', "Lucida Console", "Courier New", monospace;
+}
+
+.previous-projects-section h5 {
+  font-size: 1.5rem;
+  color: #3f1300;
+  margin: 1rem 0 0.5rem 0;
+  font-family: 'Custom', "Lucida Console", "Courier New", monospace;
+}
+
+.previous-projects-section p {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #3f1300;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-family: 'Text', "Lucida Console", "Courier New", monospace;
+}
+
+.previous-projects-section p strong {
+  font-weight: bold;
+  color: #3f1300;
+}
+
+.previous-projects-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.previous-projects-section li {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #be5939;
+  margin-bottom: 0.5rem;
+  font-family: 'Text', "Lucida Console", "Courier New", monospace;
+}
+
+.previous-projects-section a {
+  color: #3f1300;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.previous-projects-section a:hover {
+  color: #be5939;
+}
+
+
+.goal-complete-box {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fffbe7;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-family: 'Text', "Lucida Console", "Courier New", monospace;
+  position: relative;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.progress-fill {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  animation: fillBar 2s ease-out forwards;
+}
+
+@keyframes fillBar {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.goal-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4caf50;
+  animation: popUp 1s ease-in-out;
+}
+
+@keyframes popUp {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}

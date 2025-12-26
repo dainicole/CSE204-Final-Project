@@ -1,0 +1,135 @@
+.quickview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.quickview-content {
+  background: #efe9e3;
+  padding: 2rem;
+  max-width: 800px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  color: #3f1300;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #ecab6c;
+}
+
+
+.quickview-image-gallery {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background-color: #efe9e3;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.quickview-image-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media screen and (max-width: 375px) {
+  .quickview-content {
+    padding: 1rem;
+  }
+
+  .quickview-image-gallery {
+    max-width: 90vw;
+  }
+}
+
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  color: #ecab6c;
+  background-color: rgba(63, 19, 0, 0.8);
+}
+
+.gallery-arrow.left {
+  left: 1rem;
+}
+
+.gallery-arrow.right {
+  right: 1rem;
+}
+
+.gallery-arrow:hover {
+  background-color: #be5939;
+  color: #efe9e3;
+}
+
+.quickview-details {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.gallery-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+  background-color: #3f1300cc;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  color: #efe9e3;
+  padding: 0.5rem 0.8rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.gallery-arrow:hover {
+  background-color: #be5939;
+  color: #efe9e3;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-arrow.left {
+  left: 0.8rem;
+}
+
+.gallery-arrow.right {
+  right: 0.8rem;
+}
