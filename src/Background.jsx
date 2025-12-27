@@ -2,21 +2,21 @@ import { useEffect, useState } from 'react';
 import './styles/Background.css';
 
 const images = [
-  '/final-project-dainicole/backgroundImages/background1.jpg',
-  '/final-project-dainicole/backgroundImages/background2.jpg',
-  '/final-project-dainicole/backgroundImages/background3.jpg',
-  '/final-project-dainicole/backgroundImages/background4.jpg',
-  '/final-project-dainicole/backgroundImages/background5.jpg',
-  '/final-project-dainicole/backgroundImages/background6.jpg',
-  '/final-project-dainicole/backgroundImages/background7.jpg',
-  '/final-project-dainicole/backgroundImages/background8.jpg',
-  '/final-project-dainicole/backgroundImages/background9.jpg',
-  '/final-project-dainicole/backgroundImages/background10.jpg',
-  '/final-project-dainicole/backgroundImages/background11.jpg',
-  '/final-project-dainicole/backgroundImages/background12.jpg',
-  '/final-project-dainicole/backgroundImages/background13.jpg',
-  '/final-project-dainicole/backgroundImages/background14.jpg',
-  '/final-project-dainicole/backgroundImages/background15.jpg',
+  '/CSE204-Final-Project/backgroundImages/background1.jpg',
+  '/CSE204-Final-Project/backgroundImages/background2.jpg',
+  '/CSE204-Final-Project/backgroundImages/background3.jpg',
+  '/CSE204-Final-Project/backgroundImages/background4.jpg',
+  '/CSE204-Final-Project/backgroundImages/background5.jpg',
+  '/CSE204-Final-Project/backgroundImages/background6.jpg',
+  '/CSE204-Final-Project/backgroundImages/background7.jpg',
+  '/CSE204-Final-Project/backgroundImages/background8.jpg',
+  '/CSE204-Final-Project/backgroundImages/background9.jpg',
+  '/CSE204-Final-Project/backgroundImages/background10.jpg',
+  '/CSE204-Final-Project/backgroundImages/background11.jpg',
+  '/CSE204-Final-Project/backgroundImages/background12.jpg',
+  '/CSE204-Final-Project/backgroundImages/background13.jpg',
+  '/CSE204-Final-Project/backgroundImages/background14.jpg',
+  '/CSE204-Final-Project/backgroundImages/background15.jpg',
 ];
 
 
