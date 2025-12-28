@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import './styles/Background.css';
 
 const images = [
-  '/CSE204-Final-Project/backgroundImages/background1.jpg',
-  '/CSE204-Final-Project/backgroundImages/background2.jpg',
-  '/CSE204-Final-Project/backgroundImages/background3.jpg',
-  '/CSE204-Final-Project/backgroundImages/background4.jpg',
+  '/CSE204-Final-Project/dist/backgroundImages/background1.jpg',
+  '/CSE204-Final-Project/public/backgroundImages/background2.jpg',
+  '/CSE204-Final-Project/public/backgroundImages/background3.jpg',
+  '/CSE204-Final-Project/dist/backgroundImages/background4.jpg',
   '/CSE204-Final-Project/backgroundImages/background5.jpg',
   '/CSE204-Final-Project/backgroundImages/background6.jpg',
   '/CSE204-Final-Project/backgroundImages/background7.jpg',
