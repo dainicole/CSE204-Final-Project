@@ -9,7 +9,7 @@ import Shop from './Shop.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/CSE204-Final-Project">
+    <BrowserRouter basename="/CRET-Website">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<App />} />

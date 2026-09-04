@@ -2,7 +2,7 @@
 
 A responsive React web application developed for **STL Crisis Response Teens (CRET)**, a youth-led nonprofit organization dedicated to supporting families and communities affected by local and global crises.
 
-**Link:** https://dainicole.github.io/CSE204-Final-Project/
+**Link:** https://dainicole.github.io/CRET-Website/
 ## Overview
 
 This website was developed for **STL Crisis Response Teens (CRET)**, a youth-led nonprofit organization focused on supporting communities affected by local and global crises through fundraising, volunteer service, and charitable initiatives.
